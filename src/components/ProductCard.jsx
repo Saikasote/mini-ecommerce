@@ -27,7 +27,7 @@ const ProductCard = ({ product, onView }) => {
                     onClick={() => dispatch({ type: 'ADD_TO_CART', payload: product })}
                 >
                     <img
-                        src="/cart.png" // 👈 your custom image path (place in /public)
+                        src="/cart.png"
                         alt="Add to Cart"
                         style={{ width: 24, height: 24 }}
                     />
